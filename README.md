@@ -6,7 +6,7 @@
 
 # Latihan 1 
 
-### ∘ Dictionary daftar kontak
+## ∘ Dictionary daftar kontak
 
 ### Dictionary adalah Koleksi item yang berasosiasi dimana setiap pasangan terdiri key dan value.
 
