@@ -54,4 +54,21 @@ print(telepon.values())
 
 ## Outputnya :
 
+## -> Perintah menampilkan daftar nama dan nomornya (gunakan 'for)
+
+```
+for nama,nomor in telepon.items():
+    print("%s \t| %s " % (nama,nomor))
+```
+
+## Outputnya :
+
+## -> Menghapus kontak Dina
+
+```
+del telepon['Dina']
+```
+
+## Kontak Dina akan terhapus, dan outputnya sebagai berikut :
+
 
