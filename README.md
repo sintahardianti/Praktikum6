@@ -6,7 +6,7 @@
 
 # Latihan 1 
 
-### Dictionary daftar kontak
+### ∘ Dictionary daftar kontak
 
 ### Dictionary adalah Koleksi item yang berasosiasi dimana setiap pasangan terdiri key dan value.
 
@@ -27,6 +27,31 @@ print(telepon['Ari'])
 ## -> Menambahkan elemen dictionary
 
 ```
-telepon['Riko']
+telepon['Riko' :'087654544']
 ```
+
+## -> Untuk mengubah dictionary caranya hampir sama dengan menambahkannya
+
+```
+telepon['Dina'] = '088999776'
+```
+
+## -> Perintah menampilkan semua nama/key
+
+```
+print(telepon.keys())
+```
+
+## Outputnya :
+
+
+
+## -> Perintah menampilkan semua nomor/value
+
+```
+print(telepon.values())
+```
+
+## Outputnya :
+
 
