@@ -160,3 +160,73 @@ def delete():
     else:
         print("Nama tidak ditemukan ")
   ```
+
+### Buat program untuk cari data
+
+```
+def search():
+    print("Cari Data")
+    a = input("Masukkan Nama : ")
+    if a in mahasiswa.keys():
+        print("===========================================================================")
+        print("|      Nama      |     NIM     |  Tugas  |   UTS   |   UAS   |    Akhir   |")
+        print("===========================================================================")
+        print("| {0:14s} | {1:11s} | {2:7d} | {3:7d} | {4:7d} |     {5:6.2f} |"
+            .format (a , mahasiswa[a][0], mahasiswa[a][1], mahasiswa[a][2], mahasiswa[a][3], mahasiswa[a][4] ))
+        print("===========================================================================")
+
+    else:
+        print("=================================================================================")
+        print("| No |      Nama      |     NIM     |  Tugas  |   UTS   |   UAS   |    Akhir    |")
+        print("=================================================================================")
+        print("|                          DATA TIDAK DITEMUKAN                                 |")
+        print("=================================================================================")
+```
+
+program ini berbeda dengan melihat data, program ini akan memunculkan nama yang diketik pada input
+
+### Buat Program untuk menu nya
+
+```
+def menu():
+    print("\n")
+    print("================================")
+    print("      Program input nilai       ")
+    print("================================\n")
+
+    x = input("[(L)ihat, (T)ambah, (U)bah, (H)apus, (C)ari, (K)eluar]: ")
+    print("\n")
+
+    if x == 'L':
+        show()
+    elif x == 'T':
+        add()
+    elif x == 'U':
+        update()
+    elif x == 'H':
+        delete()
+    elif x == 'C':
+        search()
+    elif x == 'K':
+        print("==========================================================================")
+        print('\n')
+        print("> You exit the code                        ")
+        print("\n")
+        print("==========================================================================")
+
+        exit()
+
+    else:
+        print("            KODE YANG ANDA MASUKKAN TIDAK VALID !!!!!!!!!!!")
+```
+
+Program berisikan menu, jika ketik L/T/U/H/C/K maka akan menjalankan perintah program program yang diketik di atas seperti ```show()```,``` add()```,``` update()```,``` delete()```,``` search()```
+
+### Kodenya akan berjalan dengan perintah
+
+```
+while True:
+    menu()
+```
+
+###
