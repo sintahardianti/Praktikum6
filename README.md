@@ -82,9 +82,81 @@ del telepon['Dina']
 
 # Tugas Praktikum
 
-Membuat dictionary kosong
+### Membuat dictionary kosong
 
 ```
 mahasiswa {}
 ```
 
+### Buat program untuk melihat datanya
+
+```
+def show():
+    if mahasiswa.items():
+        print("Daftar Nilai")
+        print("=================================================================================")
+        print("| No |      Nama      |     NIM     |  Tugas  |   UTS   |   UAS   |    Akhir    |")
+        print("=================================================================================")
+        i = 0
+        for a in mahasiswa.items():
+            i += 1
+            print("| {no:2d} | {0:14s} | {1:11s} | {2:7d} | {3:7d} | {4:7d} |      {5:6.2f} |"
+            .format (a[0][: 14],a[1][0],a[1][1],a[1][2],a[1][3],a[1][4], no = i))
+        print("=================================================================================")
+        
+    else:
+        print("Daftar Nilai")
+        print("=================================================================================")
+        print("| No |      Nama      |     NIM     |  Tugas  |   UTS   |   UAS   |    Akhir    |")
+        print("=================================================================================")
+        print("|                                TIDAK ADA DATA                                 |")
+        print("=================================================================================")
+ ``` 
+
+```else``` digunakan untuk menampilkan yang terjadi jika Nama yang diketik tidak ada
+
+### Buat program untuk tambah datanya
+
+```
+def add():
+    print("Tambah Data")
+    nama = input("Nama\t : ")
+    nim = input("NIM\t : ")
+    uts = int(input("Nilai UTS\t : "))
+    uas = int(input("Nilai UAS\t : "))
+    tugas = int(input("Nilai Tugas\t : "))
+    akhir = (tugas * 30/100) + (uts * 35/100) + (uas * 35/100)
+    mahasiswa[nama] = nim, tugas, uts, uas, akhir
+```
+
+### Buat program untuk hapus data
+
+```
+def delete():
+    print("Hapus Data")
+    nama = input("Masukkan Nama : ")
+    
+    if nama in mahasiswa.keys():
+        del mahasiswa[nama]
+    
+    else:
+        print("Nama tidak ditemukan")
+ ```
+ 
+ ### Buat program untuk ubah data
+ 
+ ```
+ def update():
+    print("Ubah Data")
+    nama = input("Masukkan Nama : ")
+    if nama in mahasiswa.keys():
+        nim = input("NIM\t : ")
+        uts = int(input("Nilai UTS\t : "))
+        uas = int(input("Nilai UAS\t : "))
+        tugas = int(input("Nilai Tugas\t : "))
+        akhir = (tugas * 30/100) + (uts * 35/100) + (uas * 35/100)
+        mahasiswa[nama] = nim, tugas, uts, uas, akhir
+
+    else:
+        print("Nama tidak ditemukan ")
+  ```
