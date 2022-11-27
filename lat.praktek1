@@ -1,0 +1,51 @@
+telepon = {'Ari' : '081267888', 'Dina' : '087677776'}
+print("\n")
+print('Kontak awal')
+print('==========================')
+print('  Nama   |  Nomor telepon')
+print('==========================')
+print('  Ari    |  085267888', '\n  Dina   |  087677776')
+
+print("\n")
+print('Menampilkan kontaknya Ari')
+print('==========================')
+print('   Ari   |   ',telepon['Ari'])
+
+print("\n")
+print('Menambahkan kontaknya Riko')
+telepon ['Riko']='087654544'
+print('==========================')
+print('  Nama   |  Nomor telepon')
+print('==========================')
+print('   Ari   |   ',telepon['Ari'])
+print('   Dina  |   ',telepon['Dina'])
+print('   Riko  |   ',telepon['Riko'])
+
+print("\n")
+print('Mengubah kontak Dina')
+telepon ['Dina']='088999776'
+print('==========================')
+print('  Nama   |  Nomor telepon')
+print('==========================')
+print('   Ari   |   ',telepon['Ari'])
+print('   Dina  |   ',telepon['Dina'])
+print('   Riko  |   ',telepon['Riko'])
+
+print("\n")
+print('Menampilkan sebuah nama/key')
+print(telepon.keys())
+print('Menampilkan sebuah nomor/value')
+print(telepon.values())
+
+print("\n")
+print('Menampilkan daftar nama dan nomor')
+print('==========================')
+for nama,nomor in telepon.items():
+    print("%s \t| %s " % (nama,nomor))
+
+print("\n")
+print('Menghapus kontak Dina')
+del telepon['Dina']
+print('==========================')
+for nama,nomor in telepon.items():
+    print("%s \t| %s " % (nama,nomor))
