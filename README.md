@@ -80,3 +80,11 @@ del telepon['Dina']
 
 ![kontak dina terhapus](https://user-images.githubusercontent.com/115516473/204115599-3323328e-a700-4c4d-8c19-a6839352a390.png)
 
+# Tugas Praktikum
+
+Membuat dictionary kosong
+
+```
+mahasiswa {}
+```
+
