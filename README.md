@@ -44,6 +44,7 @@ print(telepon.keys())
 
 ## Outputnya :
 
+![menampilkan nama](https://user-images.githubusercontent.com/115516473/204115549-95705a43-1b0a-461b-9482-95e4e199ff17.png)
 
 
 ## -> Perintah menampilkan semua nomor/value
@@ -54,6 +55,9 @@ print(telepon.values())
 
 ## Outputnya :
 
+![menampilkan nomor](https://user-images.githubusercontent.com/115516473/204115561-0b04875e-ad19-4082-9e13-decf4a2e218d.png)
+
+
 ## -> Perintah menampilkan daftar nama dan nomornya (gunakan 'for)
 
 ```
@@ -63,6 +67,9 @@ for nama,nomor in telepon.items():
 
 ## Outputnya :
 
+![nama dan nomor](https://user-images.githubusercontent.com/115516473/204115577-1f08e182-2895-44fd-9d4a-2930bcf2f422.png)
+
+
 ## -> Menghapus kontak Dina
 
 ```
@@ -71,4 +78,5 @@ del telepon['Dina']
 
 ## Kontak Dina akan terhapus, dan outputnya sebagai berikut :
 
+![kontak dina terhapus](https://user-images.githubusercontent.com/115516473/204115599-3323328e-a700-4c4d-8c19-a6839352a390.png)
 
