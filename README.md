@@ -246,3 +246,24 @@ while True:
 
 -> Ubah data
 
+![ubah data 2](https://user-images.githubusercontent.com/115516473/204117092-57089da6-cff5-4aa1-a7b0-4ed33516d759.png)
+
+-> Hapus data 
+
+![hapus data](https://user-images.githubusercontent.com/115516473/204117156-da3c8884-ca32-4ed6-8833-0c404123bfed.png)
+
+Data terhapus
+
+-> Cari data
+
+![cari data](https://user-images.githubusercontent.com/115516473/204117250-ed273d4b-a179-4507-a2ce-be893de95ed0.png)
+
+Datanya tidak ditemukan karena baru saja dihapus
+
+-> Keluar
+
+![keluar data](https://user-images.githubusercontent.com/115516473/204117282-47b40f60-5fbc-4423-824c-fc50f38c7952.png)
+
+-> Flowchart
+
+![image](https://user-images.githubusercontent.com/115516473/204117318-af996925-9a51-4b84-ac43-108e7a82e371.png)
