@@ -229,4 +229,20 @@ while True:
     menu()
 ```
 
-###
+
+### Outputnya :
+
+-> Lihat tanpa data 
+
+![tanpa data](https://user-images.githubusercontent.com/115516473/204116333-9ba85f73-c0cd-4a6f-9cff-e3e2ebc5fd56.png)
+
+-> Tambah data
+
+![tambah data](https://user-images.githubusercontent.com/115516473/204116403-49b4085f-51e0-47c7-abf5-ca919af041d1.png)
+
+-> Lihat dengan data
+
+![lihat data](https://user-images.githubusercontent.com/115516473/204116451-b444700c-e67b-4d09-902d-8429a21a1b47.png)
+
+-> Ubah data
+
